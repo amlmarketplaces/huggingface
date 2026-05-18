@@ -1,0 +1,30 @@
+{
+  "name": "huggingface",
+  "owner": {
+    "name": "Huggingface"
+  },
+  "description": "Claude Code marketplace federating every @amlplugins/huggingface-* plugin under a single marketplace source.",
+  "plugins": [
+    {
+      "name": "huggingface-agents",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/huggingface-agents.git"
+      }
+    },
+    {
+      "name": "huggingface-hub",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/huggingface-hub.git"
+      }
+    },
+    {
+      "name": "huggingface-inference",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/huggingface-inference.git"
+      }
+    }
+  ]
+}
